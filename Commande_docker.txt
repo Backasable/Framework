@@ -45,3 +45,23 @@ python manage.py runserver 0.0.0.0:8000
 
 # lien projet : 
 http://localhost:8080/
+
+
+# Supprimer un élément d'un commit push / non push :
+git rm --cached nom_fichier_supp
+
+# Supprimer un répertoire contenant plusieur file d'un commit push non push :
+git rm -r --cached nom_repertoire
+
+
+# Creation d'un tag : 
+git tag nom_tag
+
+# push un tag :
+git push origin nom_tag
+
+# Supprimer un tag en local :
+git tag -d nom_tag
+
+# Supprimer un tag déjà push : 
+git push origin --delete nom_tag

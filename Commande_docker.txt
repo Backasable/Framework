@@ -1,0 +1,47 @@
+# 1 CONSTRUIRE + lancer le conteneur
+# La seul commande à exécuter au tout début d'un projet nececitant un conteineur.
+USERNAME=$(whoami) USERID=$(id -u) docker-compose up -d --build
+
+
+# lancer le conteineur : 
+docker exec -ti fw1-tp2-ubuntu bash
+
+
+# Crée pour la première fois le projet 
+# Génère les fichier système pour configurer le projet 
+# Qui sont :
+    urls.py, manage.py, setting.py, et asgi et wsgi.py
+    
+# Commande : 
+django-admin startproject nom_projet .
+# Note : le "." à la fin permet à ce que le manage.py soit
+# dans le même fichier que le projet car si il était dans le projet la structure serai casser...
+
+
+# Crée l'application dans le projet nouvellement crée :
+python manage.py startapp nom_app
+# Creer les fichier de l'app : 
+    wiew.py, models.py, admin.py 
+    et le dossier : migration 
+    Pour la base de donné de l'app
+    qui décrit tout les changements qui on été apporter aux modèles
+    lorsqu'on fait la commande : makemigration puis migrate 
+
+
+# Démarrer le conteiner ou entrer dedans si tu préfères: 
+docker start fw1-tp2-ubuntu
+
+# Arreter : 
+docker stop fw1-tp2-ubuntu
+
+# voir état : 
+docker ps -a
+
+# Voir les conteineur en marche : 
+docker ps
+
+# Commande pour lancer le serveur : 
+python manage.py runserver 0.0.0.0:8000
+
+# lien projet : 
+http://localhost:8080/

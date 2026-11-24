@@ -22,3 +22,8 @@ django-admin startproject cc2 .
 python manage.py startapp observo
 python manage.py runserver 0.0.0.0:8000
 ```
+
+Question 2 :
+Création de la template about, de la vue about 
+ajout de 'observo.apps.ObservoConfig' dans INSTALLED_APPS 
+Ajout du path dans cc2/urls.py et observo/urls.py pour que la template about puisse s'afficher

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Details</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Details de l'animal : {{animal.nom_commun}}</h1>
+
+        <ul>
+            <li>Nom savant : {{ animal.nom_savant }}</li>
+            <li>Classe : {{ animal.classe }}</li>
+            <li>Famille : {{ animal.famille }}</li>
+            <li>Embranchement : {{ animal.embranchement }}</li>
+            <li>Ordre : {{animal.ordre }}</li>
+            <li>Sous ordre : {{animal.sous_ordre}}</li>
+            <li>IUCN : {{animal.get_status_iucn_display}}</li>
+            <li>Genre : {{animal.genre}}</li>
+            <li>Description : {{animal.description}}</li>
+
+        </ul>
+    </body>
+</html>

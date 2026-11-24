@@ -51,4 +51,10 @@ avec les 10 animaux
 python manage.py loaddata animals
 ```
 
+## Question 6 : 
+Ajout de la template Detail 
+et de son chemin dans urls.py 
+
+
+
 

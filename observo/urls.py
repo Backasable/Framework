@@ -9,4 +9,5 @@ urlpatterns = [
 #     • name="…"  : nom interne pour désigner cette URL sans la réécrire en dur
 #                   (ex. dans un template : {% url 'about' %})
     path('about/', about, name="about"),
+    path('animals/<int:pk>', detail, name='detail_animals'),
 ]

@@ -26,9 +26,18 @@ python manage.py runserver 0.0.0.0:8000
 ## Question 3 : 
 Création du compte admin 
 
-## Commande utiliser : 
+## Commandes utilisées : 
 ```bash
 python manage.py migrate
 python manage.py createsuperuser
+```
+
+## Question 4 : 
+Création du modèle Animal 
+
+## Commandes utilisées : 
+```bash
+python manage.py makemigrations
+python manage.py migrate
 ```
 

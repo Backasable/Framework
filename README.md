@@ -23,7 +23,12 @@ python manage.py startapp observo
 python manage.py runserver 0.0.0.0:8000
 ```
 
-Question 2 :
-Création de la template about, de la vue about 
-ajout de 'observo.apps.ObservoConfig' dans INSTALLED_APPS 
-Ajout du path dans cc2/urls.py et observo/urls.py pour que la template about puisse s'afficher
+## Question 3 : 
+Création du compte admin 
+
+## Commande utiliser : 
+```bash
+python manage.py migrate
+python manage.py createsuperuser
+```
+

@@ -70,3 +70,7 @@ git tag -d nom_tag
 
 # Supprimer un tag déjà push : 
 git push origin --delete nom_tag
+
+# identification admin 
+id : ubuntu
+mp : ubuntu

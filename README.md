@@ -55,6 +55,9 @@ python manage.py loaddata animals
 Ajout de la template Detail 
 et de son chemin dans urls.py 
 
+## Question 7 : 
+Ajout de la template liste_tab et de la vue rep_tabulaire pour lister de manière tabulaire tout les animaux avec leur lien 
+
 
 
 

@@ -13,3 +13,7 @@ def detail(request, pk):
 
     object_animal = get_object_or_404(Animal, pk=pk)
     return render(request, "observo/detail.html", {"animal": object_animal})
+
+def rep_tabulaire(request):
+    animals = Animal.objects.all()
+    return render(request, "observo/list_tab.html", {"animals": animals})

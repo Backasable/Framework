@@ -10,4 +10,5 @@ urlpatterns = [
 #                   (ex. dans un template : {% url 'about' %})
     path('about/', about, name="about"),
     path('animals/<int:pk>', detail, name='detail_animals'),
+    path('animals', rep_tabulaire, name='animals'),
 ]

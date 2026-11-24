@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> liste Animaux</title>
+    </head>
+    <body>
+        <h1>Liste de tous les Animaux</h1>
+        <table>
+            <tr><th>Nom</th><th>description</th><th>lien</th></tr>
+            {%for animal in animals%}
+            <tr>
+                <td>{{animal.nom_commun}}</td> 
+                <td>{{animal.description|slice:"20"}}</td> 
+                <td><a href="{%url 'detail_animals' animal.pk%}">Consulter</a></td>
+            </tr>
+            {%endfor%}
+        </table>
+    </body>
+
+</html>

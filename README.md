@@ -41,3 +41,14 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+## Question 5 : 
+
+Ajout de la fixture animals.json 
+avec les 10 animaux
+
+## Commandes utilisées
+```bash
+python manage.py loaddata animals
+```
+
+

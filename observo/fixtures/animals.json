@@ -1,0 +1,162 @@
+[
+  {
+    "model": "observo.animal",
+    "pk": 1,
+    "fields": {
+      "nom_commun": "Renard roux",
+      "nom_savant": "Vulpes vulpes",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Carnivora",
+      "sous_ordre": "Caniformia",
+      "famille": "Canidae",
+      "genre": "Vulpes",
+      "status_iucn": "LC",
+      "description": "Petit canidé au pelage roux, tres repandu dans l'hemisphere nord, reconnaissable a sa queue touffue."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 2,
+    "fields": {
+      "nom_commun": "Lion",
+      "nom_savant": "Panthera leo",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Carnivora",
+      "sous_ordre": "Feliformia",
+      "famille": "Felidae",
+      "genre": "Panthera",
+      "status_iucn": "VU",
+      "description": "Grand felin social vivant en groupes appeles troupes, principalement dans les savanes africaines."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 3,
+    "fields": {
+      "nom_commun": "Tigre",
+      "nom_savant": "Panthera tigris",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Carnivora",
+      "sous_ordre": "Feliformia",
+      "famille": "Felidae",
+      "genre": "Panthera",
+      "status_iucn": "EN",
+      "description": "Plus grand des felins, au pelage raye, solitaire et territorial, present en Asie."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 4,
+    "fields": {
+      "nom_commun": "Panda geant",
+      "nom_savant": "Ailuropoda melanoleuca",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Carnivora",
+      "sous_ordre": "Caniformia",
+      "famille": "Ursidae",
+      "genre": "Ailuropoda",
+      "status_iucn": "VU",
+      "description": "Urside noir et blanc se nourrissant presque exclusivement de bambou, endemique de Chine."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 5,
+    "fields": {
+      "nom_commun": "Loutre d'Europe",
+      "nom_savant": "Lutra lutra",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Carnivora",
+      "sous_ordre": "Caniformia",
+      "famille": "Mustelidae",
+      "genre": "Lutra",
+      "status_iucn": "NT",
+      "description": "Mammifere semi-aquatique de la famille des mustelides, excellent nageur se nourrissant de poissons."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 6,
+    "fields": {
+      "nom_commun": "Loup gris",
+      "nom_savant": "Canis lupus",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Carnivora",
+      "sous_ordre": "Caniformia",
+      "famille": "Canidae",
+      "genre": "Canis",
+      "status_iucn": "LC",
+      "description": "Canide social vivant en meute, ancetre du chien domestique, au vaste territoire."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 7,
+    "fields": {
+      "nom_commun": "Ours brun",
+      "nom_savant": "Ursus arctos",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Carnivora",
+      "sous_ordre": "Caniformia",
+      "famille": "Ursidae",
+      "genre": "Ursus",
+      "status_iucn": "LC",
+      "description": "Grand urside omnivore present en Eurasie et en Amerique du Nord."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 8,
+    "fields": {
+      "nom_commun": "Rhinoceros noir",
+      "nom_savant": "Diceros bicornis",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Perissodactyla",
+      "sous_ordre": "Ceratomorpha",
+      "famille": "Rhinocerotidae",
+      "genre": "Diceros",
+      "status_iucn": "CR",
+      "description": "Grand herbivore africain dote de deux cornes, gravement menace par le braconnage."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 9,
+    "fields": {
+      "nom_commun": "Gorille de l'Est",
+      "nom_savant": "Gorilla beringei",
+      "embranchement": "Chordata",
+      "classe": "Mammalia",
+      "ordre": "Primates",
+      "sous_ordre": "Haplorhini",
+      "famille": "Hominidae",
+      "genre": "Gorilla",
+      "status_iucn": "EN",
+      "description": "Plus grand primate vivant, vegetarien, vivant en groupes dans les forets d'Afrique centrale."
+    }
+  },
+  {
+    "model": "observo.animal",
+    "pk": 10,
+    "fields": {
+      "nom_commun": "Grenouille rousse",
+      "nom_savant": "Rana temporaria",
+      "embranchement": "Chordata",
+      "classe": "Amphibia",
+      "ordre": "Anura",
+      "sous_ordre": "Neobatrachia",
+      "famille": "Ranidae",
+      "genre": "Rana",
+      "status_iucn": "LC",
+      "description": "Amphibien commun d'Europe, au dos brun-roux, se reproduisant au printemps dans les mares."
+    }
+  }
+]

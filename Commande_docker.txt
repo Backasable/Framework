@@ -60,6 +60,11 @@ git tag nom_tag
 # push un tag :
 git push origin nom_tag
 
+
+Note : 
+Pour supprimer un tag il faut à la fois le supp dans le dépot distant ET en local
+Sinon le tag existe toujours et si on le repush il sera de push sur les ancienne modif
+
 # Supprimer un tag en local :
 git tag -d nom_tag
 

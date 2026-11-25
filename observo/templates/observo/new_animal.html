@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>new_animals</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Ajouter un nouvel Animal</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ new_animal_form.as_p }}
+            <button type="submit">Ajouter</button>
+        </form>
+    </body> 
+
+</html>

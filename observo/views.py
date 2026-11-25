@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.shortcuts import get_object_or_404
 from .models import *
+from .forms import *
 
 # Create your views here.
 def about(request):
@@ -17,3 +18,15 @@ def detail(request, pk):
 def rep_tabulaire(request):
     animals = Animal.objects.all()
     return render(request, "observo/list_tab.html", {"animals": animals})
+
+def new_animal(request):
+    if request.method=="POST":
+        form = AnimalForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect("animals")
+        
+    else :
+        form = AnimalForm()
+
+    return render(request, "observo/new_animal.html", {"new_animal_form":form})

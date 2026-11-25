@@ -65,5 +65,5 @@ son chemin dans observo/urls.py
 # Question 9 :
 Ajout de l'option de suppression avec sa template en plus de son chemin dans urls.py
 
-
+# Question 10 : 
 

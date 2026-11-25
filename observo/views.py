@@ -37,3 +37,11 @@ def delete_animal(request, pk):
         return redirect("animals")
     else :
         return render(request, "observo/delete_animal.html", {"animal_delete":animal})
+
+def edt_animal(request, pk):
+    animal = get_object_or_404(Animal, pk=pk)
+    if request.method == "POST":
+        form = AnimalForm(request.POST, instance=animal)
+        if form.is_valide():
+            form.save()
+            return redirect("animals")

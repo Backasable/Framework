@@ -12,4 +12,5 @@ urlpatterns = [
     path('animals/<int:pk>', detail, name='detail_animals'),
     path('animals', rep_tabulaire, name='animals'),
     path('new_animal', new_animal, name='new_animal'),
+    path('delete_animal/<int:pk>', delete_animal, name='delete_animal'),
 ]

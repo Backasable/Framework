@@ -7,12 +7,13 @@
     <body>
         <h1>Liste de tous les Animaux</h1>
         <table>
-            <tr><th>Nom</th><th>description</th><th>lien</th></tr>
+            <tr><th>Nom</th><th>description</th><th>lien detail</th><th>lien suppression</th></tr>
             {%for animal in animals%}
             <tr>
                 <td>{{animal.nom_commun}}</td> 
                 <td>{{animal.description|slice:"20"}}</td> 
                 <td><a href="{%url 'detail_animals' animal.pk%}">Consulter</a></td>
+                <td><a href="{%url 'delete_animal' animal.pk%}">Supprimer</a></td>
             </tr>
             {%endfor%}
         </table>

@@ -62,6 +62,8 @@ Ajout de la template liste_tab et de la vue rep_tabulaire pour lister de manièr
 Ajout du formulaire AnimalForm de sa template associé : new_animal.html et de 
 son chemin dans observo/urls.py
 
+# Question 9 :
+Ajout de l'option de suppression avec sa template en plus de son chemin dans urls.py
 
 
 

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Supprimer un Animal</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Supprimer un Animal</h1>
+        <p>Voulez Vous vraiment supprimer {{animal_delete.nom_commun}} ?</p>
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit">Confirmer la suppression</button>
+        </form>
+    </body>
+</html>
